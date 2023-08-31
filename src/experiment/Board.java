@@ -3,6 +3,7 @@ package experiment;
 public class Board {
     private String[][] board;
     private static Coord middle;
+    // WOw this is cool
     public record Coord(
             int x,
             int y
