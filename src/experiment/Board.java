@@ -9,7 +9,7 @@ public class Board {
             int y
     ){}
     public Board(){
-        board = new String[15][57];
+        board = new String[8][8];
         for(int i = 0; i < board.length; i++){
             for(int k = 0; k < board[0].length; k++){
                 board[i][k] = "~~~";
