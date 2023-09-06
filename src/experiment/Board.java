@@ -3,7 +3,7 @@ package experiment;
 public class Board {
     private String[][] board;
     private static Coord middle;
-    // WOw this is cool
+    // The x and y coords are weird
     public record Coord(
             int x,
             int y
